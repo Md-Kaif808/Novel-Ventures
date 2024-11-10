@@ -1,0 +1,65 @@
+/* Background image */
+body{
+    background-image:url(./img.png);
+    background-image: no-repeat;
+    background-size: cover;
+    
+
+
+    
+    
+    
+}
+/* Button */
+#btn{
+    color: white;
+    margin-top: 25%;
+    
+    /* border: 1px solid black;  */
+    
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 180px;
+    text-align: center;
+    /* background-color: black;filter: opacity(50%); */
+    
+    /* background-image:url(./img.png);filter: brightness(120%); */
+}
+a{
+    color: rgba(230, 198, 22 );
+    text-decoration: none;
+}
+
+a:hover{
+color: white;
+}
+
+
+
+
+#text{
+    
+    font-size: 50px; 
+    font-family: "Playwrite GB S", cursive;
+    text-shadow: 2px 2px 2px black;
+    
+
+}
+
+    
+    
+
+
+    
+   
+
+
+
+       
+    
+
+
+
+
+

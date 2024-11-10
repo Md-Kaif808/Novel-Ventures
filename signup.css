@@ -1,0 +1,334 @@
+header{
+    
+    border: 1px solid black;
+    background-color: #1e1e2d;
+    width: 100%;
+    height: 130px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: inline flex;
+}
+#logo {
+    margin-top: 20px;
+    margin-left: 100px;  
+    
+}
+.navbar{
+    text-align: center;
+    /* border: 1px solid red; */
+    
+ 
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    /* border: 1px solid red;     */
+    height: 15px;
+    margin-top: 90px;
+       
+
+
+    
+    
+    
+    
+    
+
+}
+.navbar a{
+    color: rgba(230, 198, 22, 0.654);
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 50px;
+    /* border: 1px solid red; */
+    
+    
+
+    
+    
+    
+    
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar li{
+    float: left;
+    
+   
+
+
+}
+.search-bar{
+    margin-top: 94px;
+    padding-left: 70px;
+    /* border: 1px solid red; */
+
+    
+
+}
+.search-bar input::placeholder{
+    color: #bbb;
+    border: none;
+    outline: none;
+}
+.search-bar button{
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    height: 20px;
+    margin-right: 17px;
+    float: right; 
+
+}
+.search-bar button img{
+    border-radius: 50%;
+    height: 18px;
+
+}
+
+
+.search-bar button:hover{
+    background-color: #666;
+}
+.search-bar input{
+    outline: none;
+   }
+   
+#log_in{
+    
+    margin-top: 85px;
+    font-size: x-large;
+    margin-left: 60px;
+    
+    border: 1px solid gold;
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+#log_in a{
+    text-decoration: none;
+    color: rgba(230, 198, 22, 0.654);
+
+}
+#log_in a:hover{
+    color:white;
+}
+#sign_up{
+    text-decoration: none;
+    margin-top: 85px;
+    font-size: x-large;
+    margin-left: 45px;
+    height: 30px;
+    width: 90px;
+    border-radius: 10%;
+    border: 1px solid gold;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+#sign_up a{
+    text-decoration: none;
+    color: rgba(230, 198, 22, 0.654);
+}
+#sign_up a:hover{
+    color: white;
+
+ }
+
+
+
+ center{
+    margin-top: 200px;
+}
+
+
+
+
+
+
+footer{
+    margin-top: 100px;
+    
+    text-align: center;
+    background-color: #1e1e2d;;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+
+#footer_section{
+    
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    /* border: 1px solid blue; */
+    
+    
+
+    
+    
+   
+
+}
+.footer-Quick_Use ul{
+    list-style-type: none;
+}
+.footer-Quick_Use ul li a{
+    text-decoration: none;
+    
+
+}
+.footer-Quick_Use h3{
+    
+    margin-left: 45px;
+
+}
+.footer-Quick_Use, .footer-follow_Us {
+    color: white;
+}
+.footer-contact h3{
+    color: white;
+}
+.footer-Quick_Use a{
+    color: #ccc;
+}
+ #personal_info{
+    color: #ccc;
+
+}
+.footer-follow_Us a{
+    color: #ccc;
+}
+.footer_bottom{
+    color: #aaa;
+}
+body{
+    
+    margin: 0px;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span{
+    color: red;
+    font-size: 30px;
+}
+#A{
+    border: 40px double green;
+    padding: 20px;
+    background-image: url(century.jpg);
+    background-repeat: repeat-y;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+h1{
+    color: gold;
+    text-align: center;
+    padding-top: 20px;
+}
+body{
+    background-image: url(century.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#B{
+    color: blanchedalmond;
+}
+#MainDiv{
+    background-color: #1e1e2d;
+    width: 50%;
+    border-radius: 15px;    
+}
+form{
+    padding: 40px;
+    text-align: left;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgb(158, 146, 78);
+}
+input[type="text"], input[type="email"], input[type="password"],select{
+    width: 100%;
+    height: 40px;
+    margin: 2px;
+    border: none;
+    margin-top: 11px;
+}
+textarea{
+    width: 100%;
+}
+input[type="submit"],[type="reset"]{
+    background-color: red;
+    font-style: italic;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+input[type="submit"]:hover,[type="reset"]:hover{
+    background-color: rgb(65, 5, 5);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.error{
+    color:red;
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type="file"]{
+    color: aliceblue;
+}
+
+.MF{
+    color: white;
+    font-size:medium;
+}
