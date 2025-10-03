@@ -7,7 +7,7 @@ header{
     top: 0;
     left: 0;
     position: fixed;
-    display: inline flex;
+    display: inline-flex;
 }
 #logo {
     margin-top: 20px;
@@ -26,15 +26,7 @@ header{
     list-style-type: none;
     /* border: 1px solid red;     */
     height: 15px;
-    margin-top: 90px;
-       
-
-
-    
-    
-    
-    
-    
+    margin-top: 90px;    
 
 }
 .navbar a{
